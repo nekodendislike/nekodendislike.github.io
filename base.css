@@ -1,7 +1,9 @@
-
+:root {
+  --color: #f5f5f5;
+}
 @charset "utf-8";
 body {
-	background-color:#f5f5f5;		/*ページ全体の背景色*/
+	background-color:var(--color);		/*ページ全体の背景色*/
 	font-size:95%;		/* フォントサイズを95%にする */
 	font-family: "ＭＳ ゴシック",sans-serif;	/* フォントの種類をゴシック系にする */
 	line-height:1.5;	/* 行の高さを1.5倍にする */
