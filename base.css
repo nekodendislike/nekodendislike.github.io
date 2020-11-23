@@ -1,3 +1,4 @@
+@charset "utf-8";
 @media (prefers-color-scheme: light) {
 :root {
   --main-text: #333333;
@@ -8,9 +9,7 @@
     --main-text: #ffffff;
     --main-bg: #000000;
   }
-}
  
-@charset "utf-8";
 body {
 	background-color: var(--main-bg);		/*ページ全体の背景色*/
 	font-size:95%;		/* フォントサイズを95%にする */
