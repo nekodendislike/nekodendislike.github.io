@@ -5,3 +5,7 @@ body {
 	line-height:1.5;	/* 行の高さを1.5倍にする */
 	color:#333333;		/* 文字色を濃い目のグレーにする */
 }
+#menu li {
+	list-style-type:none;	/*リストマーカー無しにする*/
+	display:inline;		/*リスト項目をインライン表示にする*/
+}
