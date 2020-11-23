@@ -18,7 +18,10 @@ ul#menu {
 }
 #menu li a {
 	display:block;			/*リンク部分をブロック表示にする*/
-	width:240px; height:35px;	/*幅と高さ*/
 	background-color:navy;	/*背景色*/
 	color:#ffffff;		/*文字色*/
+	width:240px; height:35px;	/*幅と高さ*/
+	padding:15px 0px 0px 0px;	/*上パディング*/
+	text-align:center;		/*テキストをセンター揃えにする*/
+	text-decoration:none;		/*リンク部分を下線無しにする*/
 }
