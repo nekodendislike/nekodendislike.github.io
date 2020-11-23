@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) { /*ライトモードの時の指定です。　*/
   :root {
     --bgcolor: #fff;
     --textcolor: #000;
@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bgcolor: #000;
+    --bgcolor: #333;
     --textcolor: #fff;
   }
 }
