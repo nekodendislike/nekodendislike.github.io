@@ -13,11 +13,11 @@
  
 body {
 	background-color: var(--main-bg);		/*ページ全体の背景色*/
+	color: var(--main-text);		/* 文字色を濃い目のグレーにする */
+	transition: .5s;
 	font-size:95%;		/* フォントサイズを95%にする */
 	font-family: "ＭＳ ゴシック",sans-serif;	/* フォントの種類をゴシック系にする */
 	line-height:1.5;	/* 行の高さを1.5倍にする */
-	color: var(--main-text);		/* 文字色を濃い目のグレーにする */
-	transition: .5s;
 }
 
 /*============================================
