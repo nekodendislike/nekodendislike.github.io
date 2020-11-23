@@ -8,7 +8,7 @@
   :root {
     --main-text: #ffffff;
     --main-bg: #000000;
-  }
+ }
  
 body {
 	background-color: var(--main-bg);		/*ページ全体の背景色*/
