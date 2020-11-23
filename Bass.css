@@ -1,15 +1,9 @@
 
 @charset "utf-8";
 
-.buruburu {
-    display: inline-block;
-    animation: hurueru .1s  infinite;
-}
-
-@keyframes hurueru {
-    0% {transform: translate(0px, 0px) rotateZ(0deg)}
-    25% {transform: translate(2px, 2px) rotateZ(1deg)}
-    50% {transform: translate(0px, 2px) rotateZ(0deg)}
-    75% {transform: translate(2px, 0px) rotateZ(-1deg)}
-    100% {transform: translate(0px, 0px) rotateZ(0deg)}
+body {
+	font-size:95%;		/* フォントサイズを95%にする */
+	font-family: "ＭＳ ゴシック",sans-serif;	/* フォントの種類をゴシック系にする */
+	line-height:1.5;	/* 行の高さを1.5倍にする */
+	color:#333333;		/* 文字色を濃い目のグレーにする */
 }
