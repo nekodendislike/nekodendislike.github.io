@@ -19,4 +19,6 @@ ul#menu {
 #menu li a {
 	display:block;			/*リンク部分をブロック表示にする*/
 	width:240px; height:35px;	/*幅と高さ*/
+	background-color:navy;	/*背景色*/
+	color:#ffffff;		/*文字色*/
 }
