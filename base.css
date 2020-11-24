@@ -4,6 +4,8 @@
   :root {
     --bgcolor: #fff;
     --textcolor: #000;
+    --linkcolor: #0cf;
+    --visitedlinkcolor: #069;
   }
 }
 
@@ -11,6 +13,8 @@
   :root {
     --bgcolor: #333;
     --textcolor: #fff;
+    --linkcolor: #9fc;
+    --visitedlinkcolor: #6c9;
   }
 }
 
@@ -23,6 +27,13 @@ body {
   line-height:1.5;	/* 行の高さを1.5倍にする */
 }
 
+a:link { /*アクセスしたことのないリンク*/
+color: var(--linkcolor); ←青色
+}
+
+a:visited { /*アクセスしたことのあるリンク*/
+color: var(--visitedlinkcolor);　←紫色
+}
 
 /*============================================
 メインメニュー
