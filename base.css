@@ -27,6 +27,11 @@ body {
   line-height:1.5;	/* 行の高さを1.5倍にする */
 }
 
+a {
+font-weight:bold;
+text-decoration:none;
+}
+
 a:link { /*アクセスしたことのないリンク*/
 color: var(--linkcolor); ←青色
 }
