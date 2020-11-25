@@ -2,7 +2,7 @@
 
 @media (prefers-color-scheme: light) { /*ライトモードの時の指定です。　*/
   :root {
-    --bgcolor: #fff;
+    --bgcolor: #f5f5f5;
     --textcolor: #000;
     --linkcolor: #0cf;
     --visitedlinkcolor: #069;
