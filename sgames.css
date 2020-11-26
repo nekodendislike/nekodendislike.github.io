@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+@media (prefers-color-scheme: light) { /*ライトモードの時の指定です。　*/
+  :root {
+    --bgcolor: #fff;
+    --textcolor: #000;
+    --linkcolor: #0cf;
+    --visitedlinkcolor: #069;
+  }
+}
+
+@media (prefers-color-scheme: dark) {  /*ダークモード時の指定です。　　*/
+  :root {
+    --bgcolor: #333;
+    --textcolor: #fff;
+    --linkcolor: #9fc;
+    --visitedlinkcolor: #6c9;
+  }
+}
+
+body {
+  background-color: var(--bgcolor); /*ページ全体の背景色*/
+  color: var(--textcolor); /* 文字の色　*/
+  transition: .5s;
+  font-size:95%;		/* フォントサイズを95%にする */
+  font-family: "ＭＳ ゴシック",sans-serif;	/* フォントの種類をゴシック系にする */
+  line-height:1.5;	/* 行の高さを1.5倍にする */
+}
+
+a {
+font-weight:bold;
+text-decoration:none;
+}
+
+a:link { /*アクセスしたことのないリンク*/
+color: var(--linkcolor); ←青色
+}
+
+a:visited { /*アクセスしたことのあるリンク*/
+color: var(--visitedlinkcolor);　←紫色
+}
+
+/*============================================
+メインメニュー
+============================================*/
+ul#menu {
+	width:960px; height:50px; 	/*メインメニュー部分の幅と高さ*/
+}
+#menu li {
+	list-style-type:none;		/*リストマーカー無しにする*/
+	display:inline;			/*リスト項目をインライン表示にする*/
+	float:left;			/*リスト項目を横に並べる*/
+}
+#menu li a {
+	background-color:navy;	/*背景色*/
+	color:#ffffff;		/*文字色*/
+	display:block;			/*リンク部分をブロック表示にする*/
+	width:240px; height:35px;	/*幅と高さ*/
+	text-align:center;		/*テキストをセンター揃えにする*/
+	text-decoration:none;		/*リンク部分を下線無しにする*/
+}
+#menu li a:hover {
+	background-color:#000066; 	/*リンクにマウスが乗ったら背景色を変更する*/
