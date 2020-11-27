@@ -40,6 +40,15 @@ a:visited { /*アクセスしたことのあるリンク*/
 color: var(--visitedlinkcolor);　←紫色
 }
 
+.center {
+    text-align: center;
+}
+.center table,
+.center div,
+.center p {
+    margin-right: auto;
+    margin-left: auto;
+}
 /*============================================
 メインメニュー
 ============================================*/
