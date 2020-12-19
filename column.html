@@ -18,6 +18,24 @@
 </ul>
 <h2>scratchのディスカッションフォーラムで<img src="https://u.cubeupload.com/Nyankotrain/DF45F54E1C244912A969.jpeg">のやり方</h2>
 1.まず、これをコピーする。
+  
+ <!-- コピー対象要素とコピーボタン -->
+<input id="copyTarget" type="text" value="[img]https://u.cubeupload.com/Nyankotrain/DF45F54E1C244912A969.jpeg[/img]" readonly>
+<button onclick="copyToClipboard()">コピー</button>
 
+2.フォーラムで<img src="https://u.cubeupload.com/Nyankotrain/DF45F54E1C244912A969.jpeg">を入れたいところにペーストする。
+  
+  これだけ。なお、これを使うなら2行以上になることはお勧めしない。
+<!-- bodyタグ内の下部に以下を入力する -->
+<script>
+function copyToClipboard() {
+// コピー対象をJavaScript上で変数として定義する
+var copyTarget = document.getElementById("copyTarget");
+// コピー対象のテキストを選択する
+copyTarget.select();
+// 選択しているテキストをクリップボードにコピーする
+document.execCommand("Copy");
+// コピーをお知らせする（削除）
+</script>
 </body>
 </html>
