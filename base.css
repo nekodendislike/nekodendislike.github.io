@@ -49,15 +49,6 @@ header {
   padding: .5rem;
   text-align: right;
 }
-a {
-  color: #fff;
-  text-decoration: none;
-  white-space: nowrap;
-}
-li {
-  margin: 2rem 0;
-}
- 
 /* ボタン */
 .btn-menu {
   border: 1px solid #999;
@@ -79,4 +70,5 @@ nav {
   overflow-x: hidden;
   text-align: center;
   width: 100%;
+  transition: .5s; /* ← 追加 */
 }
