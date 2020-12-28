@@ -62,3 +62,31 @@ ul#menu {
 #menu li a:hover {
 	background-color:#000066; 	/*リンクにマウスが乗ったら背景色を変更する*/
 }
+
+
+.menu{
+  margin-left:auto;
+  cursor:pointer;
+}
+#menu{
+  transition:0.3s;
+  background:rgba(0,0,0,0.5);
+  position:fixed;
+  width:100%;
+  z-index:0;
+  top:0;
+  bottom:var(--menu);
+}
+#gut{
+  transition:0.3s;
+  position:fixed;
+  top:00px;
+  padding-top:5px;
+  background-color:#fff;
+  margin-left:auto;
+  width:30%;
+  height:100%;
+  padding-left:10px;
+  padding-top:80px;
+  left:var(--gut);
+}
