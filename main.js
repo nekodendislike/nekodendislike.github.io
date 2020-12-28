@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
 <meta charset="UTF-8">
   <link rel="stylesheet" href="base.css">
   <link rel="icon" href="/8554D67B-88CE-4EB0-8263-1BADA3AC6DAC.ico" />
@@ -20,5 +17,3 @@
   
 <hr>
 	  <h6>なお<font color="#f30">赤字訴訟</font>そのほかこのサイトのために発生した損失や損害について、私は一切責任を負いません。</h6>
-</body>
-</html>
