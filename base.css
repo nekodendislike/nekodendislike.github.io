@@ -43,32 +43,22 @@ color: var(--visitedlinkcolor);　←紫色
 /*============================================
 メインメニュー
 ============================================*/
-/* 基本装飾 */
-header {
-  background: #333;
-  padding: .5rem;
-  text-align: right;
+ul#menu {
+	width:960px; height:50px; 	/*メインメニュー部分の幅と高さ*/
 }
-/* ボタン */
-.btn-menu {
-  border: 1px solid #999;
-  background: transparent;
-  color: #fff;
-  padding: .5rem 1rem;
-  font-size: 1rem;
-  cursor: pointer;
-  line-height: 1;
+#menu li {
+	list-style-type:none;		/*リストマーカー無しにする*/
+	display:inline;			/*リスト項目をインライン表示にする*/
+	float:left;			/*リスト項目を横に並べる*/
 }
- 
-/* メニュー */
-nav {
-  background: #0bd;
-  position: absolute;
-  z-index: 1;
-  top: 3.125rem;
-  right: 0;
-  overflow-x: hidden;
-  text-align: center;
-  width: 100%;
-  transition: .5s; /* ← 追加 */
+#menu li a {
+	background-color:navy;	/*背景色*/
+	color:#ffffff;		/*文字色*/
+	display:block;			/*リンク部分をブロック表示にする*/
+	width:240px; height:35px;	/*幅と高さ*/
+	text-align:center;		/*テキストをセンター揃えにする*/
+	text-decoration:none;		/*リンク部分を下線無しにする*/
+}
+#menu li a:hover {
+	background-color:#000066; 	/*リンクにマウスが乗ったら背景色を変更する*/
 }
