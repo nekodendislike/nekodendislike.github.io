@@ -1,3 +1,12 @@
+var mousey = 0
+document.body.addEventListener("mousemove",function(a){mousey=a.pageY;})
+function include( license , url ) {
+  let head = `
+<link rel="icon" href="/8554D67B-88CE-4EB0-8263-1BADA3AC6DAC.ico">
+<link rel="stylesheet" href="/base.css">
+<title>nyankotrainのお部屋</title>
+`
+  let body = `
 <div id="top">
   <div class="home">
     <a href="/">
