@@ -3,7 +3,7 @@ document.body.addEventListener("mousemove",function(a){mousey=a.pageY;})
 function include( license , url ) {
   let head = `
 <link rel="icon" href="/8554D67B-88CE-4EB0-8263-1BADA3AC6DAC.ico">
-<link rel="stylesheet" href="/base.css">
+<link rel="stylesheet" href="/Basev2.css">
 <title>nyankotrainのお部屋</title>
 `
   let body = `
@@ -23,6 +23,11 @@ function include( license , url ) {
     <div class="list">
       <a href="/list">
         <font size="5">記事一覧</font>
+      </a>
+    </div>
+    <div class="toollist">
+      <a href="/toollist">
+        <font size="5">ツール一覧</font>
       </a>
     </div>
     <div class="Scratch">
@@ -57,7 +62,14 @@ function include( license , url ) {
   <h3>2020/12/24</h3>このサイトを1から作りました。
 </div>
 <div class="main">
-  
+`
+  let a = '</div>このページのライセンスは<a href="https://creativecommons.org/licenses/' + url + '/deed.ja">' + license + '</a>です。' + ( license == 'CC BY 4.0' ?'つまりクレジットだけ書いておけば自由にプログラムとかを使っていい感じのページです。':'') + '</body></html>'
+  body = body + document.body.innerHTML + a
+  document.body.innerHTML = body
+  document.getElementsByTagName('head')[0].innerHTML = head
+  document.body.style = ''
+}
+
 function menuOpen() {
   document.getElementById("botn").onclick = function () {menuClose()}
   document.getElementById("menu").style.setProperty('--menu', '0%');
