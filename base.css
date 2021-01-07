@@ -65,27 +65,3 @@ ul#menu {
 
 /*ホーム画面のポップアップ*/
 
-  color: #fff;
-  padding: 10px;
-  cursor: pointer;
-  margin: 10px auto;
-  width: 95%;
-  text-align: center;
-}
-
-/* 開くボタン */
-.btn-open{
-  background: #fff;
-  border-radius: 10px;
-  color: #fff;
-  padding: 10px;
-  cursor: pointer;
-  margin: 10px auto;
-  width: 95%;
-  text-align: center;
-}
-
-/* ポップアップの内容 */
-.popup-content{
-  margin: 40px auto 40px auto;
-  width: 90%;
