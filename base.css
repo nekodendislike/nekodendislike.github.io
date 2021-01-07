@@ -104,3 +104,72 @@ input[type="checkbox"]{
 input[type="checkbox"]:checked + #popuplink{
   display:block;
 }
+
+
+/* 全体設定 */
+* {
+  box-sizing: border-box;
+  }
+
+/* ポップアップウインドウの設定 */
+.popup {
+  background-color: #efefef;
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 70vw;
+  height: 55vw;
+  overflow-y: scroll;
+}
+/* チェックボックスの初期設定 */
+#popup-on{
+  display: none;
+}
+/* チェックされたらポップアップウインドウを開く */
+#popup-on:checked + .popup{
+  display: block;
+}
+
+/* 閉じるアイコン（右上） */
+.icon-close{
+  background: #000;
+  color: #fff;
+  font-size: 30px;
+  padding: 0 10px;
+  position: absolute;
+  right: 0;
+}
+
+/* 閉じるボタン */
+.btn-close{
+  background: #000;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px auto;
+  width: 95%;
+  text-align: center;
+}
+
+/* 開くボタン */
+.btn-open{
+  background: #fff;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px auto;
+  width: 95%;
+  text-align: center;
+}
+
+/* ポップアップの内容 */
+.popup-content{
+  margin: 40px auto 40px auto;
+  width: 90%;
