@@ -64,46 +64,6 @@ ul#menu {
 }
 
 /*ホーム画面のポップアップ*/
-/*popup表示させたいコンテンツのレイアウトと位置*/
-#popuplink{
-  width:30%;
-  line-height:100px;
-  background:#fff;
-  padding:0 4%;
-  box-sizing:border-box;
-  display:none;
-  position:fixed;
-  top:50%;
-  left:50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-img{
-  width:100%;
-}
-label{
-  display:block;
-}
-/*ボタンの装飾*/
-label span{
-  display:block;
-  background-color:#01b6ed;
-  color:#fff;
-  width:200px;
-  line-height:40px;
-  border-radius:4px;
-  text-align:center;
-}
-label span:hover{
-  cursor:pointer;
-}
-input[type="checkbox"]{
-  display:none;
-}
-/*checkboxがcheckの状態になったらpopupを表示させる*/
-input[type="checkbox"]:checked + #popuplink{
-  display:block;
-}
 
 
 /* 全体設定 */
