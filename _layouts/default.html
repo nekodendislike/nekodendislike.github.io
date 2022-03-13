@@ -1,40 +1,49 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta charset="UTF-8">
-  <link rel="stylesheet" href="./base.css">
-  <link rel="icon" href="./8554D67B-88CE-4EB0-8263-1BADA3AC6DAC.ico" />
-  <link rel="stylesheet" media="screen and (max-width:800px)" href="./base_sp.css">
-<title>製作中のもの/nyankotrainのお部屋</title>
-</head>
- <body>
-  <div class="container">
-    {% include menu.html %}
-    <div class="main">
-      <div class="block" style="float: left;">
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
         {%- if page.pagename -%}
-        <div class="pagetitle">
-          <h1>{{ page.pagename }}</h1>
-          {%- if page.date -%}
-          <div class="pageabout">{{ page.tags }} {{ page.date | date: "%Y/%m/%d"}}</div><br>
-          {%- endif -%}
-          {%- if page.image -%}
-          <div class="pageimage"><img src="{{site.url}}/assets/images/{{ page.image }}"></div>
-          {%- endif -%}
-          {%- if page.imagecaption -%}
-          {{ page.imagecaption }}
-          {%- endif -%}
+            <title>猫電のお部屋| {{ page.pagename }}</title>
+        {%- else -%}
+            <title>猫電のお部屋</title>
+        {%- endif -%}
+        <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
+        <meta name="description" content="猫電の部屋。">
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="og:url" content="{{site.url}}{{page.url}}" />
+        <meta property="og:title" content="{{page.pagename}}"/>
+        <meta property="og:image" content="{{ site.url }}/assets/images/preview.png" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-161059827-1');
+        </script>
+    </head>
+    <body>    
+        <div class="container">
+            {% include header.html %}
+            <div class="main">
+                <div class="block" style="float: left;">
+                    {%- if page.pagename -%}
+                    <div class="pagetitle"style="border-bottom: 2px solid #b88d00;">
+                        <h1>{{ page.pagename }}</h1>
+                        {%- if page.date -%}
+                            <div style="float: right;">&#x1f552;更新日:{{ page.date | date: "%Y/%m/%d"}}</div><br>
+                        {%- endif -%}
+                    </div>
+                    {%- endif -%}
+                    <article>
+                        {{ content }}
+                    </article>   
+                    {%- if page.showfooter -%}
+                    {% include footer.html %}
+                    {%- endif -%}        
+                </div>
+            </div>
+            {% include sidebar.html %}
         </div>
-        {%- endif -%}
-        <article>
-          {{ content }}
-        </article>
-        {%- if page.showfooter -%}
-        {% include footer2.html %}
-        {%- endif -%}
-        {% include footer.html %}
-      </div>
-    </div>
-  </div>
-</body>
-<html>
+    </body>
+</html>
