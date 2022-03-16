@@ -1,6 +1,6 @@
 body {
-  background-color: #fff; /*ページ全体の背景色*/
-  color: #000; /* 文字の色　*/
+  background-color: #000; /*ページ全体の背景色*/
+  color: #fff; /* 文字の色　*/
   transition: .5s;
   font-size:95%;		/* フォントサイズを95%にする */
   font-family: "ＭＳ ゴシック",sans-serif;	/* フォントの種類をゴシック系にする */
@@ -59,18 +59,4 @@ header .gnav .menu li {
 header .gnav .menu li+li {
   margin-left: 30px;
   /* メニューそれぞれに間隔をあけるため */
-}
-
-@media (prefers-color-scheme: light) { /*ライトモードの時の指定です。　*/
-  body {
-    background-color: #fff;/*ページ全体の背景色*/
-    color: #000;
-  }
-}
-
-@media (prefers-color-scheme: dark) {  /*ダークモード時の指定です。　　*/
-  body {
-    background-color: #000;/*ページ全体の背景色*/
-    color: #fff;
-  }
 }
