@@ -18,6 +18,48 @@ body {
   width: 100%;
 }
 
+.block {
+  box-sizing: border-box;
+  width: auto;
+  font-weight: normal;
+  font-size: 30px;
+  border-left: 5px solid #3261A3;
+  padding-left: 5px;
+}
+
+article p {
+  width: 100%;
+  margin: 0;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.sitetitle {
+  font-size: 60px;
+  text-align: center;
+  line-height: 70px;
+}
+
+img {
+  text-align: left;
+  width: 30%;
+}
+
+.pageimage img {
+  width: 100%;
+}
+
+.post_title a {
+  vertical-align: top;
+  font-size: 25px;
+}
+.post_title p {
+  vertical-align: top;
+}
+.post_link p {
+  margin: 0;
+}
+
 a {
 font-weight:bold;
 text-decoration:none;
