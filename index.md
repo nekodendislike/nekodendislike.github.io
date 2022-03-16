@@ -2,4 +2,5 @@
 layout: default
 pagename: Home
 ---
-test
+<img src="./assets/images/icon.PNG" class="circle">
+作成中
