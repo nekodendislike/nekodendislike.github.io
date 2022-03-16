@@ -1,9 +1,14 @@
+@font-face {
+  font-family: 'YOKOSUKA-FONT';
+  src: url('neko001-font-save/YokosukaBlock-Regular.otf') format('opentype');
+}
+
 body {
   background-color: #000; /*ページ全体の背景色*/
   color: #fff; /* 文字の色　*/
   transition: .5s;
   font-size:95%;		/* フォントサイズを95%にする */
-  font-family: "Gill Sans";	/* フォントの種類をゴシック系にする */
+  font-family: "Gill Sans", "YOKOSUKA-FONT";	/* フォントの種類をゴシック系にする */
   line-height:1.5;	/* 行の高さを1.5倍にする */
 }
 
