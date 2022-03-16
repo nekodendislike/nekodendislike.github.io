@@ -27,6 +27,13 @@ body {
   line-height:1.5;	/* 行の高さを1.5倍にする */
 }
 
+.container {
+  background-color: var(--bgcolor); /*コンテナ内の背景*/
+  width: 80vw;
+  display: inline-block;
+  box-shadow: 0px 2px 4px 3px #e4e4e4;
+}
+
 a {
 font-weight:bold;
 text-decoration:none;
