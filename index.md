@@ -1,5 +1,5 @@
 ---
 layout: default
-pagename: はじめに
+pagename: Home
 ---
 test
