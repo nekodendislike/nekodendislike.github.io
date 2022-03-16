@@ -38,11 +38,11 @@ img {
 }
 
 .circle_icon_main img {
-border-radius: 50%;
       width: 120px;
       height: 120px;
       object-fit: cover;
       border: 3px solid #999;
+      border-radius: 50%;
 }
 
 .pageimage img {
