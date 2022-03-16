@@ -3,7 +3,7 @@ body {
   color: #fff; /* 文字の色　*/
   transition: .5s;
   font-size:95%;		/* フォントサイズを95%にする */
-  font-family: "ＭＳ ゴシック",sans-serif;	/* フォントの種類をゴシック系にする */
+  font-family: "Gill Sans";	/* フォントの種類をゴシック系にする */
   line-height:1.5;	/* 行の高さを1.5倍にする */
 }
 
