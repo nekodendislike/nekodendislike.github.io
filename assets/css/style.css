@@ -1,6 +1,6 @@
 body {
-  background-color: var(--bgcolor); /*ページ全体の背景色*/
-  color: var(--textcolor); /* 文字の色　*/
+  background-color: #fff; /*ページ全体の背景色*/
+  color: #000; /* 文字の色　*/
   transition: .5s;
   font-size:95%;		/* フォントサイズを95%にする */
   font-family: "ＭＳ ゴシック",sans-serif;	/* フォントの種類をゴシック系にする */
