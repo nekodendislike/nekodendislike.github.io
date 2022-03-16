@@ -43,14 +43,15 @@ color: var(--visitedlinkcolor);　←紫色
 /*============================================
 メインメニュー
 ============================================*/
+header {
 ul#menu {
 	width:960px; height:50px; 	/*メインメニュー部分の幅と高さ*/
-}
+	}
 #menu li {
 	list-style-type:none;		/*リストマーカー無しにする*/
 	display:inline;			/*リスト項目をインライン表示にする*/
 	float:left;			/*リスト項目を横に並べる*/
-}
+	}
 #menu li a {
 	background-color:navy;	/*背景色*/
 	color:#ffffff;		/*文字色*/
@@ -58,9 +59,9 @@ ul#menu {
 	width:240px; height:35px;	/*幅と高さ*/
 	text-align:center;		/*テキストをセンター揃えにする*/
 	text-decoration:none;		/*リンク部分を下線無しにする*/
-}
+	}
 #menu li a:hover {
 	background-color:#000066; 	/*リンクにマウスが乗ったら背景色を変更する*/
+	}
 }
-
 /*ホーム画面のポップアップ*/
