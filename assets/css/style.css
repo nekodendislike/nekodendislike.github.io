@@ -44,24 +44,32 @@ color: var(--visitedlinkcolor);　←紫色
 メインメニュー
 ============================================*/
 header {
-ul#menu {
-	width:960px; height:50px; 	/*メインメニュー部分の幅と高さ*/
-	}
-#menu li {
-	list-style-type:none;		/*リストマーカー無しにする*/
-	display:inline;			/*リスト項目をインライン表示にする*/
-	float:left;			/*リスト項目を横に並べる*/
-	}
-#menu li a {
-	background-color:navy;	/*背景色*/
-	color:#ffffff;		/*文字色*/
-	display:block;			/*リンク部分をブロック表示にする*/
-	width:240px; height:35px;	/*幅と高さ*/
-	text-align:center;		/*テキストをセンター揃えにする*/
-	text-decoration:none;		/*リンク部分を下線無しにする*/
-	}
-#menu li a:hover {
-	background-color:#000066; 	/*リンクにマウスが乗ったら背景色を変更する*/
-	}
+box-shadow: 0px 2px 4px 3px #e4e4e4;
+  text-shadow: rgb(255, 255, 255) 3px 0px 0px, rgb(255, 255, 255) 2.83487px 0.981584px 0px, rgb(255, 255, 255) 2.35766px 1.85511px 0px, rgb(255, 255, 255) 1.62091px 2.52441px 0px, rgb(255, 255, 255) 0.705713px 2.91581px 0px, rgb(255, 255, 255) -0.287171px 2.98622px 0px, rgb(255, 255, 255) -1.24844px 2.72789px 0px, rgb(255, 255, 255) -2.07227px 2.16926px 0px, rgb(255, 255, 255) -2.66798px 1.37182px 0px, rgb(255, 255, 255) -2.96998px 0.42336px 0px, rgb(255, 255, 255) -2.94502px -0.571704px 0px, rgb(255, 255, 255) -2.59586px -1.50383px 0px, rgb(255, 255, 255) -1.96093px -2.27041px 0px, rgb(255, 255, 255) -1.11013px -2.78704px 0px, rgb(255, 255, 255) -0.137119px -2.99686px 0px, rgb(255, 255, 255) 0.850987px -2.87677px 0px, rgb(255, 255, 255) 1.74541px -2.43999px 0px, rgb(255, 255, 255) 2.44769px -1.73459px 0px, rgb(255, 255, 255) 2.88051px -0.838247px 0px;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(45deg, #ffffff 50%, #3882eb 50%);
+  padding: 20px 30px;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
 }
-/*ホーム画面のポップアップ*/
+
+header .gnav .menu {
+  display: flex;
+  /* 中の要素を横並びにする */
+}
+
+header .gnav .menu li {
+  list-style: none;
+  /* リストの[・]を消す */
+}
+
+header .gnav .menu li+li {
+  margin-left: 30px;
+  /* メニューそれぞれに間隔をあけるため */
+}
