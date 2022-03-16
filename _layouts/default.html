@@ -22,19 +22,26 @@
             <div class="main">
                 <div class="block" style="float: left;">
                     {%- if page.pagename -%}
-                    <div class="pagetitle"style="border-bottom: 2px solid #b88d00;">
+                    <div class="pagetitle">
                         <h1>{{ page.pagename }}</h1>
                         {%- if page.date -%}
-                            <div style="float: right;">&#x1f552;更新日:{{ page.date | date: "%Y/%m/%d"}}</div><br>
+                        <div class="pageabout">{{ page.tags }} {{ page.date | date: "%Y/%m/%d"}}</div><br>
+                        {%- endif -%}
+                        {%- if page.image -%}
+                        <div class="pageimage"><img src="{{site.url}}/assets/images/{{ page.image }}"></div>
+                        {%- endif -%}
+                        {%- if page.imagecaption -%}
+                        {{ page.imagecaption }}
                         {%- endif -%}
                     </div>
                     {%- endif -%}
                     <article>
                         {{ content }}
-                    </article>   
+                    </article>
                     {%- if page.showfooter -%}
+                    {% include footer2.html %}
+                    {%- endif -%}
                     {% include footer.html %}
-                    {%- endif -%}        
                 </div>
             </div>
         </div>
