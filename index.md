@@ -3,6 +3,6 @@ layout: default
 pagename: Home
 ---
 <div class=”circle_icon_main”>
-  <img src="./assets/images/icon.PNG" class="circle"><br>
+  <img src="./assets/images/icon.PNG" class="circle">
 </div>
-作成中
+<br>作成中
