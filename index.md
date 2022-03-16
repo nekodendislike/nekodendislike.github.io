@@ -2,5 +2,7 @@
 layout: default
 pagename: Home
 ---
-<img src="./assets/images/icon.PNG" class="circle"><br>
+<div class=”circle_icon”>
+  <img src="./assets/images/icon.PNG" class="circle"><br>
+</div>
 作成中
