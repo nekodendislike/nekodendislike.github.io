@@ -3,6 +3,7 @@ layout: default
 pagename: Home
 ---
 <div>
+  <!--
   <script langage="Javascript">
     var i,num=6;
     var hist=new MakeArray(10);
@@ -18,6 +19,7 @@ pagename: Home
              WIDTH=20"," HEIGHT=",hist[i]*10,">");
     }
   </script>
+  -->
   <div class="circle_icon_main">
     <img src="./assets/images/icon.PNG" class="circle_icon_main">
   </div>
