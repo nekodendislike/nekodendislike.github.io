@@ -48,6 +48,8 @@ img {
       object-fit: cover;
       border: 3px solid #999;
       border-radius: 50%;
+      margin-left: auto;
+      margin-right: auto;
 }
 
 .pageimage img {
