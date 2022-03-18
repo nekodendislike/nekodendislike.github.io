@@ -20,8 +20,10 @@ pagename: Home
     }
   </script>
   -->
-  <div class="circle_icon_main">
-    <img src="./assets/images/icon.PNG" class="circle_icon_main">
+  <div class="center">
+    <div class="circle_icon_main">
+      <img src="./assets/images/icon.PNG" class="circle_icon_main">
+    </div>
   </div>
 </div>
 <h1>NEKODEN HOUSE</h1>
