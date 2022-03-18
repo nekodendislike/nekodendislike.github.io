@@ -7,4 +7,5 @@ pagename: Home
     <img src="./assets/images/icon.PNG" class="circle_icon_main">
   </div>
 </div>
-<br>作成中
+<h1>NEKODEN HOUSE</h1>
+
