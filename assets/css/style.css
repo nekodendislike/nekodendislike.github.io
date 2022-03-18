@@ -37,6 +37,11 @@ article p {
   line-height: 70px;
 }
 
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
 img {
   text-align: left;
   width: 30%;
@@ -48,9 +53,6 @@ img {
       object-fit: cover;
       border: 3px solid #999;
       border-radius: 50%;
-      margin-left: auto;
-      margin-right: auto;
-      display: block;
 }
 
 .pageimage img {
