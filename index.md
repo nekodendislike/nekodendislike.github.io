@@ -24,7 +24,8 @@ pagename: Home
     <div class="circle_icon_main">
       <img src="./assets/images/icon.PNG" class="circle_icon_main">
     </div>
-    <h1>NEKODEN HOUSE</h1>
+    <h1>WELCOME TO NEKODEN HOUSE</h1>
+    
   </div>
 </div>
 
