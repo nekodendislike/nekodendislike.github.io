@@ -40,7 +40,7 @@ article p {
 .center {
   text-align: center;
   margin: 0 auto;
-  float: left;
+  float: center;
 }
 
 img {
@@ -96,6 +96,7 @@ header .gnav .menu {
   display: flex;
   text-align: center;
   margin: 0 auto;
+  float: center;
   /* 中の要素を横並びにする */
 }
 
