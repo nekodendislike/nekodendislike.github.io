@@ -89,12 +89,12 @@ color: #039; ←紫色
 header {
   width: 100%;
   display: inline-block;
-  text-align: center;
-  margin: 0 auto;
 }
 
 header .gnav .menu {
   display: flex;
+  text-align: center;
+  margin: 0 auto;
   /* 中の要素を横並びにする */
 }
 
