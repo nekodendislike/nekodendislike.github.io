@@ -40,6 +40,7 @@ article p {
 .center {
   text-align: center;
   margin: 0 auto;
+  float: left;
 }
 
 img {
