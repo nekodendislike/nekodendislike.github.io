@@ -21,6 +21,7 @@ pagename: Home
   </script>
   -->
   <div class="center">
+    <br>
     <div class="circle_icon_main"><img src="./assets/images/icon.PNG" class="circle_icon_main"></div>
     <h1>WELCOME TO NEKODEN HOUSE</h1> 
   </div>
