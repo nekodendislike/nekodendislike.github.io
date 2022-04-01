@@ -107,7 +107,7 @@ footer {
   display: inline-block;
 }
 
-header .foot {
+footer .foot {
   display: flex;
   text-align: center;
   margin: 0 auto;
