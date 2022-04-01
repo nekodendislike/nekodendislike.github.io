@@ -37,12 +37,6 @@ article p {
   line-height: 70px;
 }
 
-.center {
-  text-align: center;
-  margin: 0 auto;
-  float: center;
-}
-
 img {
   text-align: left;
   width: 30%;
