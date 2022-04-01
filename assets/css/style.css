@@ -127,6 +127,7 @@ keyframe
 ===*/
 
 @keyframes rainbow_circle_icon_main{
+    0%{border: 3px solid #ff53bd;}
     12%{border: 3px solid #ff5353;}
     24%{border: 3px solid #ffcf53;}
     36%{border: 3px solid #e8ff53;}
