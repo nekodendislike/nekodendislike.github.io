@@ -107,6 +107,14 @@ footer {
   display: inline-block;
 }
 
+header .foot {
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  float: center;
+  /* 中の要素を横並びにする */
+}
+
 /*===
 keyframe
 ===*/
