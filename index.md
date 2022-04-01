@@ -2,8 +2,7 @@
 layout: default
 pagename: Home
 ---
-<div>
-  <!--
+<!--
   <script langage="Javascript">
     var i,num=6;
     var hist=new MakeArray(10);
@@ -19,7 +18,7 @@ pagename: Home
              WIDTH=20"," HEIGHT=",hist[i]*10,">");
     }
   </script>
-  -->
+-->
 <div style="display: block; width: 100%; text-align: center;">
   <center>
     <br>
