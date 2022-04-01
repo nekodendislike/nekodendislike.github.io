@@ -20,7 +20,7 @@ pagename: Home
     }
   </script>
   -->
-<div style="width: 100%; text-align: center;">
+<div style="display: block; width: 100%; text-align: center;">
   <br>
   <div class="circle_icon_main"><img src="./assets/images/icon.PNG" class="circle_icon_main"></div>
   <h1>WELCOME TO NEKODEN HOUSE</h1> 
