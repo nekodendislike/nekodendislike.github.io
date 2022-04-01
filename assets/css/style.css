@@ -115,6 +115,11 @@ footer .foot {
   /* 中の要素を横並びにする */
 }
 
+footer .foot li {
+  list-style: none;
+  /* リストの[・]を消す */
+}
+
 /*===
 keyframe
 ===*/
