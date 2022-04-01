@@ -21,7 +21,8 @@ body {
   width: 100%;
   font-weight: normal;
   font-size: 30px;
-  border: 5px solid #3261A3;
+  border: solid #3261A3;
+  border-width:5px 0 5px 0;
 }
 
 article p {
