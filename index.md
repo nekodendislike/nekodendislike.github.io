@@ -20,7 +20,7 @@ pagename: Home
     }
   </script>
   -->
-</div>
+<div>
   <div style="text-align:center;">
     <br>
     <div class="circle_icon_main"><img src="./assets/images/icon.PNG" class="circle_icon_main"></div>
