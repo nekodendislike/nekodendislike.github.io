@@ -45,6 +45,8 @@ article p {
       border: 3px solid #999;
       border-radius: 50%;
       animation-name: rainbow_circle_icon_main;
+      animation-duration: 4s;
+    	animation-iteration-count: infinite;
 }
 
 .pageimage img {
