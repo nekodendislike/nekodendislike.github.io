@@ -122,6 +122,12 @@ footer .foot li {
   /* リストの[・]を消す */
 }
 
+footer .foot li img {
+  display: block;   
+  margin-left: auto;
+  margin-right: auto;
+}  
+
 /*===
 keyframe
 ===*/
