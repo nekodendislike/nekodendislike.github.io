@@ -21,6 +21,9 @@ pagename: Home
 -->
 <center>
     <br>
+    <!--
     <div class="circle_icon_main"><img src="./assets/images/icon.PNG" class="circle_icon_main"></div>
     <h1>ヨウコソ</h1>
+    -->
+    <img src='./assets/images/F24CBAD9-8C91-4EB6-9A5F-B8B908C2DE51.png'>
 </center>
