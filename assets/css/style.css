@@ -98,7 +98,8 @@ header .gnav .menu li {
 }
 
 header .gnav .menu li+li {
-  margin-left: 15%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
   /* メニューそれぞれに間隔をあけるため */
 }
 /*============================================
