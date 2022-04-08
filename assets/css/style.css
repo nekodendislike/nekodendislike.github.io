@@ -85,7 +85,7 @@ header {
 }
 
 header .gnav .menu {
-  display: flex;
+  display: inline-block;
   text-align: center;
   margin: 0 auto;
   float: center;
