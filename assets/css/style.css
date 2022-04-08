@@ -112,7 +112,7 @@ footer {
 }
 
 footer .foot {
-  display: flex;
+  display: block;
   text-align: center;
   margin: 0 auto;
   float: center;
