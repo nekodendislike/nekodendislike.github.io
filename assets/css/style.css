@@ -76,16 +76,12 @@ header .gnav .menu {
   text-align: center;
   margin: 0 auto;
   float: center;
+  width: 20%;
   /* 中の要素を横並びにする */
 }
 header .gnav .menu li {
   list-style: none;
   /* リストの[・]を消す */
- }
-
- header .gnav .menu li+li {
-   margin-right: 15%;
-   /* メニューそれぞれに間隔をあけるため */
  }
  /*============================================
 フッター
