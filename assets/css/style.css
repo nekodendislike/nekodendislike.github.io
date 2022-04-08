@@ -89,6 +89,8 @@ header .gnav .menu {
   text-align: center;
   margin: 0 auto;
   float: center;
+  width: 20%; 
+  height: 10%;
   /* 中の要素を横並びにする */
 }
 
