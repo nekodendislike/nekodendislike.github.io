@@ -74,9 +74,8 @@ header {
 header .gnav .menu {
   display: flex;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 10%;
   float: center;
-  padding: 0 5% 0 5%;
   /* 中の要素を横並びにする */
 }
 header .gnav .menu li {
