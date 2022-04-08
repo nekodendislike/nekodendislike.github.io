@@ -88,14 +88,14 @@ header .gnav .menu {
   display: flex;
   margin: 0 auto;
   float: center;
-  width: 20%; 
-  height: 10%;
   /* 中の要素を横並びにする */
 }
 
 header .gnav .menu li {
   list-style: none;
   text-align: center;
+  width: 20%; 
+  height: 10%;
   /* リストの[・]を消す */
 }
 
