@@ -81,6 +81,7 @@ color: #039; ←紫色
 ============================================*/
 header {
   width: 100%;
+  height: 10%;
   display: inline-block;
 }
 
@@ -95,7 +96,6 @@ header .gnav .menu li {
   list-style: none;
   text-align: center;
   width: 20%; 
-  height: 10%;
   /* リストの[・]を消す */
 }
 
