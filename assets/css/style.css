@@ -76,7 +76,7 @@ header .gnav .menu {
   text-align: center;
   margin: 0 auto;
   float: center;
-  width: 20%;
+  padding: 0 5% 0 5%;
   /* 中の要素を横並びにする */
 }
 header .gnav .menu li {
