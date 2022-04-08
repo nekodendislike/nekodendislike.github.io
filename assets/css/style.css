@@ -2,7 +2,6 @@
   font-family: "YOKOSUKA-FONT";
   src: url('./assets/fonts/YokosukaBlock-Regular.otf') format('opentype');
 }
-
 body {
   background-color: #000; /*ページ全体の背景色*/
   color: #fff; /* 文字の色　*/
@@ -11,11 +10,9 @@ body {
   font-family: "Gill Sans", "YOKOSUKA-FONT";	/* フォントの種類をゴシック系にする */
   line-height:1.5;	/* 行の高さを1.5倍にする */
 }
-
 .main {
   width: 100%;
 }
-
 .block {
   box-sizing: border-box;
   width: 100%;
@@ -24,20 +21,17 @@ body {
   border-right :solid 5px #3261A3;
   border-left  :solid 5px #3261A3;
 }
-
 article p {
   width: 100%;
   margin: 0;
   font-size: 22px;
   line-height: 30px;
 }
-
 .sitetitle {
   font-size: 60px;
   text-align: center;
   line-height: 70px;
 }
-
 .circle_icon_main img {
       width: 120px;
       height: 120px;
@@ -47,11 +41,9 @@ article p {
       animation-duration: 4s;
     	animation-iteration-count: infinite;
 }
-
 .pageimage img {
   width: 100%;
 }
-
 .post_title a {
   vertical-align: top;
   font-size: 25px;
@@ -62,20 +54,16 @@ article p {
 .post_link p {
   margin: 0;
 }
-
 a {
 font-weight:bold;
 text-decoration:none;
 }
-
 a:link { /*アクセスしたことのないリンク*/
 color: #06f; ←青色
 }
-
 a:visited { /*アクセスしたことのあるリンク*/
 color: #039; ←紫色
 }
-
 /*============================================
 メインメニュー
 ============================================*/
@@ -83,57 +71,48 @@ header {
   width: 100%;
   display: inline-block;
 }
-
 header .gnav .menu {
-  display: block;
+  display: flex;
+  text-align: center;
   margin: 0 auto;
   float: center;
-  height: 10%;
   /* 中の要素を横並びにする */
 }
-
 header .gnav .menu li {
   list-style: none;
-  text-align: center;
-  width: 20%; 
   /* リストの[・]を消す */
-}
+ }
 
-header .gnav .menu li+li {
-  margin-left: 15%;
-  /* メニューそれぞれに間隔をあけるため */
-}
-/*============================================
+ header .gnav .menu li+li {
+   margin-right: 15%;
+   /* メニューそれぞれに間隔をあけるため */
+ }
+ /*============================================
 フッター
 ============================================*/
 footer {
   width: 100%;
   display: inline-block;
 }
-
 footer .foot {
-  display: block;
+  display: flex;
   text-align: center;
   margin: 0 auto;
   float: center;
   /* 中の要素を横並びにする */
 }
-
 footer .foot li {
   list-style: none;
   /* リストの[・]を消す */
 }
-
 footer .foot li img {
   display: block;   
   margin-left: auto;
   margin-right: auto;
 }  
-
 /*===
 keyframe
 ===*/
-
 @keyframes rainbow_circle_icon_main{
     0%{border: 3px solid #ff53bd;}
     12%{border: 3px solid #ff5353;}
