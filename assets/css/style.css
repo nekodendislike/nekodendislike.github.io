@@ -82,6 +82,8 @@ header .gnav .menu {
 header .gnav .menu li {
   list-style: none;
   /* リストの[・]を消す */
+  color: #4169e1; ←青色
+  /* 色指定 */
  }
 header .gnav .menu li+li {
   margin-left: 15%;
