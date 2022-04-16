@@ -59,7 +59,7 @@ font-weight:bold;
 text-decoration:none;
 }
 a:link { /*アクセスしたことのないリンク*/
-color: #06f; ←青色
+color: #4169e1; ←青色
 }
 a:visited { /*アクセスしたことのあるリンク*/
 color: #039; ←紫色
