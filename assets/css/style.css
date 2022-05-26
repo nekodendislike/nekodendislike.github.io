@@ -84,6 +84,10 @@ header .gnav .menu li {
   /* リストの[・]を消す */
   color: #4169e1; ←青色
   /* 色指定 */
+	animation-name: blink-link;
+	animation-duration: 5s;
+	animation-timing-function: steps;
+	animation-iteration-count: infinite;
  }
 header .gnav .menu li+li {
   margin-left: 15%;
@@ -125,13 +129,6 @@ keyframe
     72%{border: 3px solid #5393ff;}
     84%{border: 3px solid #ca53ff;}
     100%{border: 3px solid #ff53bd;}
-}
-
-.blinklink-move li{
-	animation-name: blink-link;
-	animation-duration: 5s;
-	animation-timing-function: steps;
-	animation-iteration-count: infinite;
 }
 
 @keyframes blink-link {
