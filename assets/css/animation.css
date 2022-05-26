@@ -1,0 +1,19 @@
+.blinklonk-move {
+	animation-name: blink-link;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-fill-mode: none;
+	animation-play-state: running;
+}
+
+@keyframes blink-link {
+    0%{color: #4169e1;}
+    50%{color: #003399;}
+    51%{color: #4169e1;}
+    80%{color: #003399;}
+    81%{color: #4169e1;}
+    100%{color:#4169e1;}
+}
