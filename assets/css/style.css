@@ -127,7 +127,7 @@ keyframe
     100%{border: 3px solid #ff53bd;}
 }
 
-.blinklink-move {
+.blinklink-move li{
 	animation-name: blink-link;
 	animation-duration: 5s;
 	animation-timing-function: steps;
