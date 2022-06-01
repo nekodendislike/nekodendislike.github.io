@@ -61,7 +61,7 @@ text-decoration:none;
 a:link { /*アクセスしたことのないリンク*/
 	animation-name: blink-link;
 	animation-duration: 5s;
-	animation-timing-function: steps;
+	animation-timing-function: steps(100,end);
 	animation-iteration-count: infinite;
 }
 a:visited { /*アクセスしたことのあるリンク*/
