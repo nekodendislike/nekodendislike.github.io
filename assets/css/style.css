@@ -73,6 +73,7 @@ color: #039; ←紫色
 header {
   width: 100%;
   display: inline-block;
+  background-color: #fff; /*ページ全体の背景色*/
 }
 header .gnav .menu {
   display: flex;
