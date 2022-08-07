@@ -3,8 +3,8 @@
   src: url('./assets/fonts/YokosukaBlock-Regular.otf') format('opentype');
 }
 body {
-  background-color: #000; /*ページ全体の背景色*/
-  color: #fff; /* 文字の色　*/
+  background-color: #f3f3f3; /*ページ全体の背景色*/
+  color: #16160e; /* 文字の色　*/
   transition: .5s;
   font-size:95%;		/* フォントサイズを95%にする */
   font-family: "Gill Sans", "YOKOSUKA-FONT";	/* フォントの種類をゴシック系にする */
