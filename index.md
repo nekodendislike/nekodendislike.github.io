@@ -24,7 +24,7 @@ pagename: Home
     <div class="circle_icon_main"><img src="./assets/images/icon.PNG" class="circle_icon_main"></div>
     <img src='./assets/images/F24CBAD9-8C91-4EB6-9A5F-B8B908C2DE51.png' width='100%'>
     -->
-  <h1>ヨウコソ</h1>
+  <h1>ようこそ猫電ハウスへ</h1>
   <table>
     <tr>
       <td><a href="https://scratch.mit.edu/projects/719856941" target="_blank"> <img src="https://scratch.mit.edu/get_image/project/719856941_480x360.png" alt="queen" width="240" height="180"></a></td>
