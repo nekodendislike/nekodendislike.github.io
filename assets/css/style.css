@@ -59,10 +59,7 @@ font-weight:bold;
 text-decoration:none;
 }
 a:link { /*アクセスしたことのないリンク*/
-	animation-name: blink-link;
-	animation-duration: 5s;
-	animation-timing-function: steps(100,end);
-	animation-iteration-count: infinite;
+color:#069;
 }
 a:visited { /*アクセスしたことのあるリンク*/
 color: #039; ←紫色
@@ -85,6 +82,10 @@ header .gnav .menu {
 }
 header .gnav .menu li {
   list-style: none;
+  animation-name: blink-link;
+  animation-duration: 5s;
+  animation-timing-function: steps(100,end);
+  animation-iteration-count: infinite;
   /* リストの[・]を消す */
  }
 header .gnav .menu li+li {
