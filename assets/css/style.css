@@ -73,6 +73,7 @@ color: #039; ←紫色
 header {
   width: 100%;
   display: inline-block;
+  background-color: #2b2b2b; /*ページ全体の背景色*/
 }
 header .gnav .menu {
   display: flex;
@@ -80,7 +81,6 @@ header .gnav .menu {
   padding: 0 5%;
   margin: 0 10%;
   float: center;
-  background-color: #2b2b2b; /*ページ全体の背景色*/
   /* 中の要素を横並びにする */
 }
 header .gnav .menu li {
