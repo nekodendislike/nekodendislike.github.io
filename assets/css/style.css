@@ -105,18 +105,18 @@ footer {
   width: 100%;
   display: inline-block;
 }
-footer .foot {
+footer .footer {
   display: flex;
   text-align: center;
   margin: 0 auto;
   float: center;
   /* 中の要素を横並びにする */
 }
-footer .foot li {
+footer .footer li {
   list-style: none;
   /* リストの[・]を消す */
 }
-footer .foot li img {
+footer .footer li img {
   display: block;   
   margin-left: auto;
   margin-right: auto;
