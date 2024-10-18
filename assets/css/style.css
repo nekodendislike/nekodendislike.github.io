@@ -80,7 +80,7 @@ header .gnav .menu {
   display: flex;
   text-align: center;
   padding: 0 5%;
-  margin: 0 10%;
+  margin: 0 auto;
   float: center;
   /* 中の要素を横並びにする */
 }
