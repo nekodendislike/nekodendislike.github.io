@@ -94,7 +94,8 @@ header .gnav .menu a {
   animation-iteration-count: infinite;
 }
 header .gnav .menu li+li {
-  margin-left: 15%;
+  margin-right: 7.5%;
+  margin-left: 7.5%;
   /* リストの[・]を消す */
  }
  /*============================================
@@ -103,6 +104,7 @@ header .gnav .menu li+li {
 footer {
   width: 100%;
   display: inline-block;
+  background-color: #2b2b2b; /*ページ全体の背景色*/
 }
 footer .footer {
   display: flex;
