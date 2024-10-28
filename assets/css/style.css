@@ -4,7 +4,7 @@
 }
 body {
   background-color: #2b2b2b; /*ページ全体の背景色*/
-  color: #16160e; /* 文字の色　*/
+  color: #ffffff; /* 文字の色　*/
   transition: .5s;
   font-size:95%;		/* フォントサイズを95%にする */
   font-family: "Gill Sans", "YOKOSUKA-FONT";	/* フォントの種類をゴシック系にする */
