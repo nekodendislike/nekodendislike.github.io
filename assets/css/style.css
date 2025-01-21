@@ -73,7 +73,7 @@ header {
   width: 100%;
   height: 5%; /* 高さを50pxに指定 */
   display: inline-block;
-  /* background-color: #f3f3f3; */
+  background-color: #f3f3f3;
   /* ヘッダーに上下左右それぞれ余白を指定 */
   box-sizing: border-box; /* padding分を含んで幅を100%にするため */
   position:fixed;
